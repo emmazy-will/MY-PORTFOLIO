@@ -57,8 +57,8 @@ const Hero = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex-shrink-0 text-white font-bold text-xl md:text-2xl">
-              Azubuogu <span className="text-yellow-400">EMMANUEL</span>
+            <div className="flex-shrink-0 text-white font-bold text-xl md:text-2xl pr-5">
+               <span className="text-yellow-400">EMMANUEL</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -121,10 +121,13 @@ const Hero = () => {
           </h3>
           
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-6 md:mb-8 justify-center lg:justify-start">
+            <a href="/My CV.pdf" download>
             <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base">
               <Download className="mr-2 h-4 w-4" />
               Download CV
             </Button>
+          </a>
+
             <a 
               href="https://wa.me/2349134857341" 
               target="_blank" 
