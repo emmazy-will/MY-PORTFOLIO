@@ -84,7 +84,7 @@ const Projects = () => {
   title: "WanderWorld",
   description: "A travel discovery platform showcasing weather, culture, and stunning imagery of states and countries worldwide.",
   image: Wander, 
-  url: "https://wanderworld.example.com", 
+  url: "https://wander-wise-n4ir.onrender.com", 
   github: "#", 
   tech: ["React", "Tailwind CSS", "OpenWeather API", "Unsplash API", "TypeScript"]
 },
