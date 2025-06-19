@@ -9,6 +9,10 @@ import Schoolweb from "/src/images/school.png";
 import view from "/src/images/music wave.png";
 import manage from "/src/images/task.png";
 import book from "/src/images/books.png";
+import Wander from "/src/images/wander-one.png";
+import Crypto from "/src/images/crypto.png";
+import market from "/src/images/market.png";
+
 
 const Projects = () => {
   const projects = [
@@ -66,7 +70,7 @@ const Projects = () => {
       image: chat,
       url: "https://my-wether-app-qvjd.onrender.com",
       github: "#",
-      tech: ["React", "CSS", "OpenWeather API", "JavaScript"]
+      tech: ["React", "CSS", "OpenWeather API", "JavaScript", "Tilwind Css","Vite"]
     },
     {
       title: "LexiAI",
@@ -77,13 +81,39 @@ const Projects = () => {
       tech: ["React", "Vite", "CSS", "JavaScript", "TypeScript", "Bootstrap"]
     },
     {
-      title: "Dehills Academy",
-      description: "School website featuring academic programs and campus information.",
-      image: Schoolweb,
-      url: "https://school-3ki2.onrender.com",
-      github: "#",
-      tech: ["HTML", "CSS", "JavaScript"]
-    }
+  title: "WanderWorld",
+  description: "A travel discovery platform showcasing weather, culture, and stunning imagery of states and countries worldwide.",
+  image: Wander, 
+  url: "https://wanderworld.example.com", 
+  github: "#", 
+  tech: ["React", "Tailwind CSS", "OpenWeather API", "Unsplash API", "TypeScript"]
+},
+{
+  title: "Crypto View",
+  description: "A real-time crypto monitoring platform providing up-to-date market prices, trends, and visual insights for top cryptocurrencies around the world.",
+  image: Crypto, // Replace with your actual image import
+  url: "https://my-crypto-wvpj.onrender.com", // Replace with your actual deployed link
+  github: "#", 
+  tech: ["React", "Tailwind CSS", "CoinGecko API", "Chart.js", "TypeScript"]
+},
+{
+  title: "Market Rate Dashboard",
+  description: "A real-time dashboard for monitoring cryptocurrency trends and foreign exchange market rates, combining global financial insights with powerful data visualizations for informed trading decisions.",
+  image: market, 
+  url: "https://market-rate.onrender.com", 
+  github: "#", 
+  tech: ["React", "Tailwind CSS", "CoinGecko API", "ExchangeRate API", "TypeScript", "Chart.js"]
+},
+ {
+    title: "Dehills international academy",
+    description: "Where academic excellence meets character development.A nurturing environment that inspires curiosity and confidence.Preparing visionary leaders through innovative education.",
+    image: Schoolweb,
+    url: "https://school-3ki2.onrender.com",
+    tech: ["Html", "CSS","render","Javascripit",]
+  },
+
+
+
   ];
 
   return (
@@ -91,7 +121,7 @@ const Projects = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8 md:mb-16">
-            My <span className="text-yellow-400">Portfolio</span>
+            My <span className="text-yellow-400">Projects</span>
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
